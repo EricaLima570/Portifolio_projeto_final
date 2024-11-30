@@ -1,6 +1,6 @@
 /* Define o fundo do body */
 body {
-    background-image: url('./img/5442673.jpg'); /* Caminho relativo para a imagem */
+    background-image: url('../img/5442673.jpg'); /* Caminho relativo para a imagem */
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-position: center center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
