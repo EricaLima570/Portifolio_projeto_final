@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/fundogaleria.jpg'); /* Caminho da sua imagem de fundo */
+}
+
+h1 {
+    color: #3d0457;
+    font-weight: bold; /* Deixar o texto em negrito */
+    text-align: center; /* Centraliza o título */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.testimonial-card {
+    background-color: rgb(227, 197, 255);
+    border-radius: 8px;
+    border: solid 8px;
+    border-color: rgb(50, 7, 90);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Transição suave ao aumentar o tamanho */
+}
+
+/* Efeito de aumento quando passar o mouse */
+.testimonial-card:hover {
+    transform: scale(1.10); /* Aumenta o tamanho do card em 5% */
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    color: #000000;
+}
+
+.testimonial-comment {
+    font-style: italic;
+    color: #000000;
+}
+
+.testimonial-container {
+    margin-top: 50px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aprendizado em Desenvolvimento Web</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Meu CSS Externo -->
+    <link rel="stylesheet" href="./css/aprendizado.css">
+</head>
+<body>
+    <header >
+        <!-- Título centralizado -->
+    <div id="titulo" class="text-center ">
+        <h1>MEU APRENDIZADO</h1>
+    </div>
+
+    <!-- Menu de navegação com Bootstrap -->
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="#html">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#css">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#bootstrap">BOOTSTRAP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#git">GIT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dicas">DICAS</a>
+        </li>
+    </ul>
+
+    </header>
+    
+
+    <div class="container mt-5">
+        <!-- Seção de HTML -->
+        <section id="html" class="mt-5">
+            <h2 class="text-center ">HTML</h2>
+            <p>HTML é a base de qualquer página web. Com ele, conseguimos estruturar o conteúdo da página. Veja um exemplo básico:</p>
+            <pre><code class="language-html">&lt;div class="container"&gt;
+    &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+    &lt;p&gt;Este é meu primeiro site usando HTML!&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            <p>Dica: Ao usar o Bootstrap, você pode utilizar as classes para facilitar a estruturação do layout. A classe <code>container</code> ajuda a centralizar o conteúdo.</p>
+        </section>
+
+        <!-- Seção de CSS -->
+        <section id="css" class="mt-5">
+            <h2 class="text-center ">CSS</h2>
+            <p>CSS é usado para estilizar e formatar a aparência da sua página. Com ele, conseguimos deixar as páginas visualmente mais atraentes. Veja um exemplo de como aplicar um fundo e centralizar o texto:</p>
+            <pre><code class="language-css">body {
+    background-image: url('imagem-de-fundo.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}</code></pre>
+            <p>Dica: Para centralizar elementos de forma eficiente, você pode usar a classe <code>text-center</code> do Bootstrap, ou utilizar propriedades de flexbox ou grid no CSS.</p>
+        </section>
+
+        <!-- Seção de Bootstrap -->
+        <section id="bootstrap" class="mt-5">
+            <h2 class="text-center ">Bootstrap</h2>
+            <p>Bootstrap é uma excelente ferramenta para agilizar o desenvolvimento web. Ele oferece classes prontas para criar layouts responsivos e componentes como botões, formulários, etc. Veja um exemplo de um formulário simples:</p>
+            <pre><code class="language-html">&lt;form&gt;
+    &lt;div class="form-group"&gt;
+        &lt;label for="nome"&gt;Nome&lt;/label&gt;
+        &lt;input type="text" class="form-control" id="nome" placeholder="Digite seu nome"&gt;
+    &lt;/div&gt;
+    &lt;button type="submit" class="btn btn-primary"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+            <p>Dica: O Bootstrap também tem várias classes de utilidade como <code>btn-primary</code> e <code>form-control</code> que tornam o código mais limpo e organizado.</p>
+        </section>
+
+        <!-- Seção de Git -->
+        <section id="git" class="mt-5">
+            <h2 class="text-center ">Versionamento com Git</h2>
+            <p>Git é uma ferramenta essencial para o versionamento de código. Ele ajuda a manter o controle das mudanças no código e facilita o trabalho em equipe. Abaixo, temos alguns comandos básicos:</p>
+            <pre><code class="language-shell"># Inicializa um repositório git
+git init
+
+# Adiciona arquivos ao stage
+git add .
+
+# Comita as alterações
+git commit -m "Mensagem do commit"
+
+# Verifica o status do repositório
+git status</code></pre>
+            <p>Dica: Sempre faça commits pequenos e frequentes. Isso facilita o controle de alterações e a reversão de mudanças indesejadas.</p>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="dicas" class="mt-5 text-center">
+            <h3 >Dicas Finais</h3>
+            <p>Continue praticando e explorando essas tecnologias. O HTML e CSS formam a base de tudo, o Bootstrap agiliza o desenvolvimento e o Git te ajuda a controlar o que foi feito. Nunca deixe de estudar e buscar exemplos na web. Cada erro é uma oportunidade de aprendizado!</p>
+        </section>
+        
+        <!-- Formulário de Comentários -->
+        <section id="comentarios" class="mt-5">
+            <h3 class="text-center ">Deixe seu Comentário</h3>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nomeComentario" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nomeComentario" placeholder="Seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentário</label>
+                    <textarea class="form-control" id="comentario" rows="4" placeholder="Digite seu comentário" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Comentário</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-IY04PdtW7C0Gf/32oMn7rsz9vDxGTXqgHjVm7u3uFREBB3ZmRPq6XzvfuKkOfwG7y" crossorigin="anonymous"></script>
+</body>
+</html>

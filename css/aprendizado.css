@@ -1,0 +1,106 @@
+body {
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove qualquer espaçamento interno padrão */
+    background-image: url('../img/5442673.jpg'); /* Caminho relativo para a imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: #cca7cf;
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 10px; /* Remove qualquer espaçamento interno, caso exista */
+    border-bottom: solid 4px ;
+    border-color: #3e049b;
+}
+#titulo{
+    color: #3e049b;
+    font-weight: bold; /* Deixar o texto em negrito */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    
+}
+.nav-item{
+    padding-left: 4px;
+}
+
+/* Estilo para o menu de navegação */
+.nav-pills .nav-link {
+    background-color: #6d2583; /* Fundo rosa */
+    color: #ffffff; /* Texto branco */
+    font-weight: bold; /* Texto em negrito */
+    border-radius: 100px; /* Bordas arredondadas */
+
+}
+
+/* Efeito ao passar o mouse no menu de navegação */
+.nav-pills .nav-link:hover {
+    background-color:#3e049b; /* Rosa mais escuro */
+    color: #ffffff; /* Texto branco */
+}
+
+/* Remove o foco visual padrão ao clicar no link */
+.nav-pills .nav-link:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Estilo para as sections */
+section {
+    border: 2px solid #3e049b; /* Borda sólida */
+    padding: 20px;
+    margin-bottom: 30px; /* Espaçamento entre as sections */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo roxo claro */
+}
+
+/* Estilo para o título das sections */
+section h2, section h3 {
+    font-weight: bold;
+    color:#3e049b; 
+    padding: 20px;
+    background-color: #b580d1;
+    border-radius: 30px;
+    border: solid 2px #f1c8f5;
+}
+
+/* Ajustando a aparência do formulário */
+form {
+    background-color: rgba(172, 99, 179, 0.5); /* Fundo mais escuro para o formulário */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o conteúdo do formulário */
+}
+
+/* Estilo para os rótulos do formulário */
+form .form-label {
+    color: #ffffff;
+}
+
+/* Estilo para os campos de entrada do formulário */
+form .form-control {
+    background-color: #c2b5c9;
+    border: 1px solid #444;
+    color: #fff;
+    
+}
+
+/* Estilo para o botão do formulário */
+form .btn {
+    background-color: #511057;
+    border: none;
+    color: #ffffff; /* Cor do texto no botão */
+    width: auto; /* Ajusta o tamanho do botão para o conteúdo */
+    padding: 10px 20px; /* Ajuste do padding para controlar o tamanho do botão */
+    margin-top: 20px; /* Espaçamento acima do botão */
+    font-size: 16px; /* Tamanho da fonte, pode ajustar conforme necessário */
+}
+
+/* Estilo para o botão do formulário ao passar o mouse */
+form .btn:hover {
+    background-color: #24032c;
+    color: #ffffff; /* Cor do texto quando o botão é hover */
+}

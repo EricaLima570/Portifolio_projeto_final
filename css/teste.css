@@ -10,19 +10,20 @@ body {
 
 /* Aplica a borda roxa ao formulário */
 .custom-form {
-    background-color: #eac9fa; /* Fundo branco do formulário */
+    background-color: #caaae0; /* Fundo branco do formulário */
     padding: 20px; /* Espaço interno do formulário */
     border: 10px solid #800080; /* Borda roxa */
-    border-radius: 8px; /* Arredondar cantos */
+    border-radius: 30px; /* Arredondar cantos */
     box-shadow: 0 4px 8px rgba(68, 65, 17, 0.1); /* Sombra leve */
     width: 100%; /* Usa toda a largura disponível */
-    max-width: 400px; /* Define largura máxima do formulário */
+    max-width: 500px; /* Define largura máxima do formulário */
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 20px;
     
 
 }
