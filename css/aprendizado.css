@@ -26,6 +26,10 @@ header {
 .nav-item{
     padding-left: 4px;
 }
+/* Estilo para palavras em negrito */
+#dicas strong {
+    color: #ff69b4; /* Cor rosa */
+}
 
 /* Estilo para o menu de navegação */
 .nav-pills .nav-link {

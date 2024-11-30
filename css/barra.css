@@ -1,0 +1,53 @@
+/* Body com imagem de fundo */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/5442673.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+#titulo h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+/* Centralizar e estilizar a caixa */
+.container-txtbr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(153, 86, 173, 0.8); /* Fundo roxo com transparência */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    border: solid 2px  #6d2583;;
+}
+/* Estilo para palavras em negrito */
+
+
+/* Progresso */
+.progress-bar {
+    background-color: #6d2583; /* Cor roxa */
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Teste de Margem Inferior */
+.teste {
+    margin-bottom: 20px;
+}
+
+/* Estilizar os títulos dos progressos */
+.teste label {
+    color: #ffffff; /* Cor branca */
+    font-weight: bold;
+    padding-bottom: 10px;
+}
